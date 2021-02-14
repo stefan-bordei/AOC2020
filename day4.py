@@ -140,8 +140,6 @@ import re
 
 
 def is_valid_passport(passport):
-    
-    
     REQUIRED_FIELDS = {
     "byr": "",
     "iyr": "",
@@ -160,8 +158,6 @@ def is_valid_passport(passport):
 
 
 def is_valid_height(s):
-    
-    
     n, unit = int(s[:-2]), s[-2:]
     if unit == 'cm':
         return 150 <= n <= 193
@@ -170,8 +166,6 @@ def is_valid_height(s):
 
     
 def is_valid_passport_param(passport):
-    
-    
     REQUIRED_FIELDS = {
     "byr": lambda s: 1920 <=int(s) <= 2002, # Birth Year
     "iyr": lambda s: 2010 <=int(s) <= 2020, # Issue Year

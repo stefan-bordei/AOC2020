@@ -103,7 +103,6 @@ def count_answers(text_input):
     """ aoc day6 part 1: 
         Count the number of questions for which anyone answered 'yes' from the puzzle input """
 
-
     total = 0
     target = 'abcdefghijklmnopqrstuvwxyz'
 
@@ -119,7 +118,6 @@ def count_unanimous_answers(text_input):
     
     """ aoc day6 part 2: 
         Count the number of questions for which at everyone answered 'yes' from the puzzle input """
-    
 
     count = 0
     
